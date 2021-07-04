@@ -4,6 +4,8 @@
 
 > Babel은 ECMAScript 최신 문법으로 작성된 코드들을 구버전의 브라우저에서도 실행할 수 있게끔 변환해주는 트랜스파일러이다. 특히 개발하는 서비스가 구버전의 IE를 지원해야하는 경우 Babel을 이용한 호환성 확장은 필수적이다. 또한 Babel은 최신 문법 변환 외에도 다양하게 사용될 수 있는데, 리액트의 JSX 문법 또한 Babel이 createElement 함수를 사용한 리액트 코드로 변환시켜 준다.
 
+---
+
 ## 2. 설치
 
 ```
@@ -25,6 +27,8 @@ npm i @babel/cli @babel/core @babel/node @babel/preset-env babel-loader @babel/p
 - **babel-loader** : webpack이 .js 파일들에 대해 babel을 실행하도록 만들어준다.
 
 - **@babel/polyfill** : babel은 기본적으로 es6로 작성한 코드를 es5 환경에서 동작할 수 있도록 변환을 해주지만 애초부터 es5에 존재하지 않는 es6의 메서드나 생성자들까지 지원하지는 않기 때문에 이를 해결하기 위한 패키지이다.
+
+---
 
 ## 3. 실행
 
